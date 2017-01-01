@@ -1,0 +1,17 @@
+/Users/nemo/game/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/nemo/game/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/nemo/game/obj/Debug/Assembly-CSharp.dll
+/Users/nemo/game/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/nemo/game/Temp/bin/Debug/UnityEngine.dll
+/Users/nemo/game/Temp/bin/Debug/UnityEditor.dll
+/Users/nemo/game/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/nemo/game/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/nemo/game/Temp/bin/Debug/Mono.Cecil.dll
+/Users/nemo/game/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/nemo/game/Temp/bin/Debug/Unity.DataContract.dll
+/Users/nemo/game/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/nemo/game/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/nemo/game/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/nemo/game/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/nemo/game/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/nemo/game/Temp/bin/Debug/Mono.Cecil.Mdb.dll
