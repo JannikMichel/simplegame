@@ -48,6 +48,7 @@
      <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\deathcollision.cs" />
+     <Compile Include="Assets\loadScript.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

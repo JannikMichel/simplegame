@@ -32,5 +32,9 @@ public class PlayerController : MonoBehaviour {
 		{
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 		}
+		if(col.gameObject.name == "ende")
+		{
+			SceneManager.LoadScene ("gui");
+		}
 	}
 }
