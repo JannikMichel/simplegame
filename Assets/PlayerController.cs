@@ -28,11 +28,11 @@ public class PlayerController : MonoBehaviour {
 	}
 	void OnCollisionEnter (Collision col)
 	{
-		if(col.gameObject.name == "Plane_001")
+		if(col.gameObject.name == "Plane_001" ||col.gameObject.name == "Plane_004" )
 		{
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 		}
-		if(col.gameObject.name == "ende")
+		if(col.gameObject.name == "ende"||col.gameObject.name == "Cube_002")
 		{
 			SceneManager.LoadScene ("gui");
 		}
