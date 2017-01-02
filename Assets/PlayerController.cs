@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
 	void FixedUpdate ()
 	{
 		float moveHorizontal = 0;
+		//moveHorizontal = -Input.acceleration.x;
 		//float moveHorizontal = Input.GetAxis ("Horizontal");
 		//float moveVertical = Input.GetAxis ("Vertical");
 		if (Input.touchCount > 0)
@@ -35,19 +36,24 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 
-		Vector3 movement = new Vector3 (-moveHorizontal * horSpeed, 0.0f,-speed);
 
+
+		Vector3 movement = new Vector3 (-moveHorizontal * horSpeed, 0.0f,-speed);
+//		Vector3 movement = new Vector3 (moveHorizontal*2, 0.0f,0.0f);
+//		Vector3 movement1 = new Vector3 (0.0f, 0.0f,-speed);
+//		rb.AddForce (movement*speed);
 		rb.AddForce (movement*speed,ForceMode.Acceleration);
+
 	}
 	void OnCollisionEnter (Collision col)
 	{
 		if(col.gameObject.name == "Plane_001" ||col.gameObject.name == "Plane_004" )
 		{
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+			SceneManager.LoadScene (SceneManager.GetActiveScene ().name,LoadSceneMode.Single);
 		}
 		if(col.gameObject.name == "ende"||col.gameObject.name == "Cube_002")
 		{
-			SceneManager.LoadScene ("gui");
+			SceneManager.LoadScene ("gui",LoadSceneMode.Single);
 		}
 	}
 }
