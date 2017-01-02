@@ -11,4 +11,7 @@ public class loadScript : MonoBehaviour {
 	public void loadScene2(){
 		SceneManager.LoadScene ("level2");
 	}
+	public void loadScene3(){
+		SceneManager.LoadScene ("level3");
+	}
 }
