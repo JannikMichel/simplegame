@@ -20,22 +20,22 @@ public class PlayerController : MonoBehaviour {
 	void FixedUpdate ()
 	{
 		float moveHorizontal = 0;
-		//moveHorizontal = -Input.acceleration.x;
-		//float moveHorizontal = Input.GetAxis ("Horizontal");
-		//float moveVertical = Input.GetAxis ("Vertical");
-		if (Input.touchCount > 0)
-		{
-			var touch = Input.GetTouch(0);
-			if (touch.position.x < Screen.width/2)
-			{
-				moveHorizontal = -1;
-			}
-			else if (touch.position.x > Screen.width/2)
-			{
-				 moveHorizontal = 1;
-			}
-		}
+		if (SystemInfo.deviceType == "Handheld") {
 
+
+
+			//float moveVertical = Input.GetAxis ("Vertical");
+			if (Input.touchCount > 0) {
+				var touch = Input.GetTouch (0);
+				if (touch.position.x < Screen.width / 2) {
+					moveHorizontal = -1;
+				} else if (touch.position.x > Screen.width / 2) {
+					moveHorizontal = 1;
+				}
+			}
+		} else {
+			 moveHorizontal = Input.GetAxis ("Horizontal");
+		}
 
 
 		Vector3 movement = new Vector3 (-moveHorizontal * horSpeed, 0.0f,-speed);
