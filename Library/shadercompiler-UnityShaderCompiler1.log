@@ -1,6 +1,7 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Cmd: getPlatforms
 <<<<<<< HEAD
+<<<<<<< HEAD
 Cmd: disassembleShader
   api=23 insize=4159 outsize=4159 ok=1
 Cmd: compileSnippet
@@ -163,6 +164,10 @@ Cmd: compileSnippet
   api=0 type=0 insize=1061 outsize=6748 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP ok=1
 Cmd: disassembleShader
   api=1 insize=6748 outsize=6748 ok=1
+=======
+
+Quitting shader compiler process
+>>>>>>> origin/master
 =======
 
 Quitting shader compiler process
