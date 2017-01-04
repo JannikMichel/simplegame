@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour {
 	void FixedUpdate ()
 	{
 		float moveHorizontal = 0;
-		if (SystemInfo.deviceType == "Handheld") {
+		if (SystemInfo.deviceType == DeviceType.Handheld) {
 
 
 
@@ -33,8 +33,13 @@ public class PlayerController : MonoBehaviour {
 					moveHorizontal = 1;
 				}
 			}
-		} else {
+		} else if(SystemInfo.deviceType == DeviceType.Desktop){
 			 moveHorizontal = Input.GetAxis ("Horizontal");
+			if (moveHorizontal > 0) {
+				moveHorizontal = 1;
+			} else if (moveHorizontal < 0) {
+				moveHorizontal = -1;
+			}
 		}
 
 
