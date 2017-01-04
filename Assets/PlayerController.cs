@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour {
 	}
 	void OnCollisionEnter (Collision col)
 	{
-		if(col.gameObject.name == "Plane_001" ||col.gameObject.name == "Plane_004" )
+		if(col.gameObject.name == "Plane_001" ||col.gameObject.name == "Plane_004" ||col.gameObject.name == "asteroid_field" )
 		{
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name,LoadSceneMode.Single);
 		}
