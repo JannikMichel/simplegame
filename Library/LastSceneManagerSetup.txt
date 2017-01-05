@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/big bang level.unity
-=======
-- path: Assets/level3.unity
->>>>>>> origin/master
+- path: Assets/Dino level.unity
   isLoaded: 1
   isActive: 1
