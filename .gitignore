@@ -8,3 +8,5 @@ Obj/
 *.user
 *.userprefs
 *.DS_store
+*.apk
+game
