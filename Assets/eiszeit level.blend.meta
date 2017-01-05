@@ -18,6 +18,10 @@ ModelImporter:
     100024: Cylinder_003
     100026: Cylinder_004
     100028: Plane_004
+    100030: ende
+    100032: florr
+    100034: gegenstand
+    100036: mamut
     400000: Circle
     400002: Circle_001
     400004: //RootNode
@@ -33,6 +37,10 @@ ModelImporter:
     400024: Cylinder_003
     400026: Cylinder_004
     400028: Plane_004
+    400030: ende
+    400032: florr
+    400034: gegenstand
+    400036: mamut
     2300000: Circle
     2300002: Circle_001
     2300004: Plane
@@ -47,6 +55,10 @@ ModelImporter:
     2300022: Cylinder_003
     2300024: Cylinder_004
     2300026: Plane_004
+    2300028: ende
+    2300030: florr
+    2300032: gegenstand
+    2300034: mamut
     3300000: Circle
     3300002: Circle_001
     3300004: Plane
@@ -61,6 +73,10 @@ ModelImporter:
     3300022: Cylinder_003
     3300024: Cylinder_004
     3300026: Plane_004
+    3300028: ende
+    3300030: florr
+    3300032: gegenstand
+    3300034: mamut
     4300000: Plane
     4300002: Circle_001
     4300004: Circle
@@ -75,6 +91,10 @@ ModelImporter:
     4300022: Cylinder_003
     4300024: Cylinder_004
     4300026: Plane_004
+    4300028: ende
+    4300030: mamut
+    4300032: florr
+    4300034: gegenstand
     7400000: Default Take
     9500000: //RootNode
   materials:
