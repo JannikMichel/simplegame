@@ -14,4 +14,7 @@ public class loadScript : MonoBehaviour {
 	public void loadScene3(){
 		SceneManager.LoadScene ("level3",LoadSceneMode.Single);
 	}
+	public void loadScene4(){
+		SceneManager.LoadScene ("big bang level",LoadSceneMode.Single);
+	}
 }
