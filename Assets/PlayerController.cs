@@ -13,12 +13,16 @@ public class PlayerController : MonoBehaviour {
 	}
 	void Start ()
 	{
-		
 		rb = GetComponent<Rigidbody>();
 	}
 
 	void FixedUpdate ()
-	{
+	{  if (Input.GetKeyDown("p")){
+			Time.timeScale =0;
+		}
+		if (Input.GetKeyDown("n")){
+			Time.timeScale =1;
+		}
 		float moveHorizontal = 0;
 		if (SystemInfo.deviceType == DeviceType.Handheld) {
 
@@ -35,11 +39,6 @@ public class PlayerController : MonoBehaviour {
 			}
 		} else if(SystemInfo.deviceType == DeviceType.Desktop){
 			 moveHorizontal = Input.GetAxis ("Horizontal");
-			if (moveHorizontal > 0) {
-				moveHorizontal = 1;
-			} else if (moveHorizontal < 0) {
-				moveHorizontal = -1;
-			}
 		}
 
 
