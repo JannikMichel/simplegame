@@ -22,6 +22,16 @@ ModelImporter:
     100032: florr
     100034: gegenstand
     100036: mamut
+    100038: Circle_000
+    100040: Circle_002
+    100042: Circle_003
+    100044: Circle_004
+    100046: Circle_005
+    100048: Cube
+    100050: Cube_001
+    100052: Plane_005
+    100054: Plane_006
+    100056: Plane_017
     400000: Circle
     400002: Circle_001
     400004: //RootNode
@@ -41,6 +51,16 @@ ModelImporter:
     400032: florr
     400034: gegenstand
     400036: mamut
+    400038: Circle_000
+    400040: Circle_002
+    400042: Circle_003
+    400044: Circle_004
+    400046: Circle_005
+    400048: Cube
+    400050: Cube_001
+    400052: Plane_005
+    400054: Plane_006
+    400056: Plane_017
     2300000: Circle
     2300002: Circle_001
     2300004: Plane
@@ -59,6 +79,17 @@ ModelImporter:
     2300030: florr
     2300032: gegenstand
     2300034: mamut
+    2300036: //RootNode
+    2300038: Circle_000
+    2300040: Circle_002
+    2300042: Circle_003
+    2300044: Circle_004
+    2300046: Circle_005
+    2300048: Cube
+    2300050: Cube_001
+    2300052: Plane_005
+    2300054: Plane_006
+    2300056: Plane_017
     3300000: Circle
     3300002: Circle_001
     3300004: Plane
@@ -77,6 +108,17 @@ ModelImporter:
     3300030: florr
     3300032: gegenstand
     3300034: mamut
+    3300036: //RootNode
+    3300038: Circle_000
+    3300040: Circle_002
+    3300042: Circle_003
+    3300044: Circle_004
+    3300046: Circle_005
+    3300048: Cube
+    3300050: Cube_001
+    3300052: Plane_005
+    3300054: Plane_006
+    3300056: Plane_017
     4300000: Plane
     4300002: Circle_001
     4300004: Circle
@@ -95,6 +137,16 @@ ModelImporter:
     4300030: mamut
     4300032: florr
     4300034: gegenstand
+    4300036: Cube_001
+    4300038: Cube
+    4300040: Circle_000
+    4300042: Circle_002
+    4300044: Circle_003
+    4300046: Circle_004
+    4300048: Circle_005
+    4300050: Plane_005
+    4300052: Plane_017
+    4300054: Plane_006
     7400000: Default Take
     9500000: //RootNode
   materials:
