@@ -1,7 +1,7 @@
 # Blender MTL File: 'eiszeit level.blend'
 # Material Count: 4
 
-newmtl black
+newmtl black.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.000000 0.000000
@@ -11,7 +11,7 @@ Ni 1.000000
 d 1.000000
 illum 1
 
-newmtl snow
+newmtl snow.003
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.911393 0.911393 0.911393
@@ -21,7 +21,7 @@ Ni 1.000000
 d 1.000000
 illum 1
 
-newmtl tree
+newmtl tree.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.005586 0.095420 0.035599
@@ -31,7 +31,7 @@ Ni 1.000000
 d 1.000000
 illum 2
 
-newmtl wood
+newmtl wood.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.123710 0.053531 0.027442
