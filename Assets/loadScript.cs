@@ -20,4 +20,7 @@ public class loadScript : MonoBehaviour {
 	public void loadScene5(){
 	SceneManager.LoadScene ("Dino level",LoadSceneMode.Single);
 	}
+	public void loadScene6(){
+		SceneManager.LoadScene ("eiszeit level",LoadSceneMode.Single);
+	}
 }
